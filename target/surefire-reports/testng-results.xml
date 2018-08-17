@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StepDefinitions.TestRunner" duration-ms="136308" started-at="2018-08-17T16:32:17Z" finished-at="2018-08-17T16:34:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@3c09711b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="136308" started-at="2018-08-17T16:32:17Z" finished-at="2018-08-17T16:34:34Z">
+      <class name="StepDefinitions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:StepDefinitions.TestRunner@3c09711b]" name="setUpClass" is-config="true" duration-ms="1338" started-at="2018-08-17T22:02:17Z" finished-at="2018-08-17T22:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:StepDefinitions.TestRunner@3c09711b]" name="setup" is-config="true" duration-ms="470" started-at="2018-08-17T22:02:19Z" finished-at="2018-08-17T22:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@3c09711b]" name="feature" duration-ms="133691" started-at="2018-08-17T22:02:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-17T22:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Access seleniumframework.com website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:StepDefinitions.TestRunner@3c09711b]" name="tearDownClass" is-config="true" duration-ms="94" started-at="2018-08-17T22:04:33Z" finished-at="2018-08-17T22:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinitions.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- StepDefinitions.TestRunner -->
+</testng-results>
